@@ -51,10 +51,10 @@ Function BadAdd(ByVal FirstOp As Integer, ByRef SecondOp As Integer)
 
   FirstOp = 10
   SecondOp = 75
-  Add2 = SecondOp
+  BadAdd = SecondOp
 End Function
 
-Sub TestAdditioner()
+Sub TestBadAdd()
   Dim a As Integer
   Dim b As Integer
   Dim result As Integer
